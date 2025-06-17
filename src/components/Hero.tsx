@@ -14,6 +14,12 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white font-semibold px-8 py-4 text-lg shadow-2xl hover:shadow-green-500/25 transition-all duration-300 hover:scale-105"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1BLa4fwRNXcqXlqxi_zMfK43HL0voFYB-/view",
+                  "_blank",
+                )
+              }
             >
               <Icon name="Download" className="mr-2" size={20} />
               Скачать приложение
